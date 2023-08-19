@@ -34,8 +34,5 @@ function cambiarImagen() {
     segundos += 2;
 }
 
-// Iniciar con el verde encendido
-imagenes[2].style.display = "block"; // Encender verde
-
 // Cambiar la imagen automáticamente cada 2 segundos
 intervalo = setInterval(cambiarImagen, 2000);
